@@ -1,0 +1,29 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #5ec4ff;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 10px 15px;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.page_number {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+}
